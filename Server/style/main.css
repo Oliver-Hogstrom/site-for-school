@@ -1,7 +1,18 @@
 body{
     background-color: #4b0082;
 }
-
+/* For the navbar and header */
 .navbar{
     border-radius: 10px;
 }
+
+.navbar-brand{
+    font-size: x-large;
+}
+
+.nav-link{
+    font-size: x-large; 
+}
+
+/* For the pictures */
+
