@@ -37,4 +37,4 @@ app.get('/css', (req, res) => {
 // All the pictures
 app.use(express.static(clientDir))
 
-app.listen(port , () => console.log(`Example app listening on port ${port}!`))
+app.listen(port , 'ntikronhus.tk', () => console.log(`Example app listening on port ${port}!`))
