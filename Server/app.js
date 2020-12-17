@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 const ejs = require ('ejs')
-const port = 80
+const port = 8083
 
 app.set('view-engine', 'ejs')
 
@@ -37,4 +37,4 @@ app.get('/css', (req, res) => {
 // All the pictures
 app.use(express.static(clientDir))
 
-app.listen(port, 'ntikronhus.tk', () => console.log(`Example app listening on port ${port}!`))
+app.listen(port , () => console.log(`Example app listening on port ${port}!`))
